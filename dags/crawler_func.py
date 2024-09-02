@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from webdriver_manager.chrome import ChromeDriverManager 
+from selenium.webdriver.chrome.service import Service as ChromiumService
+from webdriver_manager.core.os_manager import ChromeType
 from time import sleep
 
 def get_news_info(news_elm, driver1):
@@ -42,9 +45,9 @@ def scrape():
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
-
-    driver = webdriver.Chrome(options=options)
-    driver1 = webdriver.Chrome(options=options)
+    options.add_argument('--disable-gpu')
+    driver = webdriver.Chrome(service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+    driver1 = webdriver.Chrome(service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
 
     driver.get(url)
     list_news_pos = driver.find_element(By.CLASS_NAME, 'cfbiz_home20-wrapper')

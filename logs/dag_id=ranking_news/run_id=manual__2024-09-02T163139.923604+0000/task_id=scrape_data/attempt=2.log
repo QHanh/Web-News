@@ -1,0 +1,230 @@
+[2024-09-02T16:35:55.738+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-02T16:35:55.754+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ranking_news.scrape_data manual__2024-09-02T16:31:39.923604+00:00 [queued]>
+[2024-09-02T16:35:55.762+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ranking_news.scrape_data manual__2024-09-02T16:31:39.923604+00:00 [queued]>
+[2024-09-02T16:35:55.763+0000] {taskinstance.py:2856} INFO - Starting attempt 2 of 3
+[2024-09-02T16:35:55.776+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): scrape_data> on 2024-09-02 16:31:39.923604+00:00
+[2024-09-02T16:35:55.781+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=202) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-02T16:35:55.783+0000] {standard_task_runner.py:72} INFO - Started process 212 to run task
+[2024-09-02T16:35:55.784+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ranking_news', 'scrape_data', 'manual__2024-09-02T16:31:39.923604+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/crawler_dag.py', '--cfg-path', '/tmp/tmpvn8g3xk8']
+[2024-09-02T16:35:55.785+0000] {standard_task_runner.py:105} INFO - Job 24: Subtask scrape_data
+[2024-09-02T16:35:55.835+0000] {task_command.py:467} INFO - Running <TaskInstance: ranking_news.scrape_data manual__2024-09-02T16:31:39.923604+00:00 [running]> on host 5ee6e0b702c6
+[2024-09-02T16:35:55.919+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ranking_news' AIRFLOW_CTX_TASK_ID='scrape_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-02T16:31:39.923604+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-02T16:31:39.923604+00:00'
+[2024-09-02T16:35:55.920+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-02T16:35:55.921+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-02T16:35:55.922+0000] {logging_mixin.py:190} INFO - Current task name:scrape_data state:running start_date:2024-09-02 16:35:55.755555+00:00
+[2024-09-02T16:35:55.922+0000] {logging_mixin.py:190} INFO - Dag name:ranking_news and current dag run status:running
+[2024-09-02T16:35:55.923+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-02T16:35:55.924+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2024-09-02T16:35:56.041+0000] {logger.py:11} INFO - Get LATEST chromedriver version for chromium
+[2024-09-02T16:35:56.287+0000] {logger.py:11} INFO - Get LATEST chromedriver version for chromium
+[2024-09-02T16:35:56.532+0000] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/128.0.6613.86/chromedriver-linux64/chromedriver] found in cache
+[2024-09-02T16:35:56.769+0000] {taskinstance.py:3301} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/crawler_func.py", line 49, in scrape
+    driver = webdriver.Chrome(service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55ad8e9348da <unknown>
+#1 0x55ad8e602e50 <unknown>
+#2 0x55ad8e63ae05 <unknown>
+#3 0x55ad8e636c78 <unknown>
+#4 0x55ad8e68364e <unknown>
+#5 0x55ad8e682e66 <unknown>
+#6 0x55ad8e677233 <unknown>
+#7 0x55ad8e645093 <unknown>
+#8 0x55ad8e64609e <unknown>
+#9 0x55ad8e8fbb3b <unknown>
+#10 0x55ad8e8ffaf1 <unknown>
+#11 0x55ad8e8e7705 <unknown>
+#12 0x55ad8e900662 <unknown>
+#13 0x55ad8e8cc8df <unknown>
+#14 0x55ad8e9236d8 <unknown>
+#15 0x55ad8e9238a2 <unknown>
+#16 0x55ad8e9336cc <unknown>
+#17 0x7f53dd578144 <unknown>
+
+[2024-09-02T16:35:56.787+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-09-02T16:35:56.788+0000] {logging_mixin.py:190} INFO - Task start:2024-09-02 16:35:55.755555+00:00 end:2024-09-02 16:35:56.787361+00:00 duration:1.031806
+[2024-09-02T16:35:56.788+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): scrape_data> dag:<DAG: ranking_news> dagrun:<DagRun ranking_news @ 2024-09-02 16:31:39.923604+00:00: manual__2024-09-02T16:31:39.923604+00:00, state:running, queued_at: 2024-09-02 16:31:39.938545+00:00. externally triggered: True>
+[2024-09-02T16:35:56.789+0000] {logging_mixin.py:190} INFO - Failure caused by Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55ad8e9348da <unknown>
+#1 0x55ad8e602e50 <unknown>
+#2 0x55ad8e63ae05 <unknown>
+#3 0x55ad8e636c78 <unknown>
+#4 0x55ad8e68364e <unknown>
+#5 0x55ad8e682e66 <unknown>
+#6 0x55ad8e677233 <unknown>
+#7 0x55ad8e645093 <unknown>
+#8 0x55ad8e64609e <unknown>
+#9 0x55ad8e8fbb3b <unknown>
+#10 0x55ad8e8ffaf1 <unknown>
+#11 0x55ad8e8e7705 <unknown>
+#12 0x55ad8e900662 <unknown>
+#13 0x55ad8e8cc8df <unknown>
+#14 0x55ad8e9236d8 <unknown>
+#15 0x55ad8e9238a2 <unknown>
+#16 0x55ad8e9336cc <unknown>
+#17 0x7f53dd578144 <unknown>
+[2024-09-02T16:35:56.789+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=ranking_news, task_id=scrape_data, run_id=manual__2024-09-02T16:31:39.923604+00:00, execution_date=20240902T163139, start_date=20240902T163555, end_date=20240902T163556
+[2024-09-02T16:35:56.805+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-02T16:35:56.806+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 24 for task scrape_data (Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55ad8e9348da <unknown>
+#1 0x55ad8e602e50 <unknown>
+#2 0x55ad8e63ae05 <unknown>
+#3 0x55ad8e636c78 <unknown>
+#4 0x55ad8e68364e <unknown>
+#5 0x55ad8e682e66 <unknown>
+#6 0x55ad8e677233 <unknown>
+#7 0x55ad8e645093 <unknown>
+#8 0x55ad8e64609e <unknown>
+#9 0x55ad8e8fbb3b <unknown>
+#10 0x55ad8e8ffaf1 <unknown>
+#11 0x55ad8e8e7705 <unknown>
+#12 0x55ad8e900662 <unknown>
+#13 0x55ad8e8cc8df <unknown>
+#14 0x55ad8e9236d8 <unknown>
+#15 0x55ad8e9238a2 <unknown>
+#16 0x55ad8e9336cc <unknown>
+#17 0x7f53dd578144 <unknown>
+; 212)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2995, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3149, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3173, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/crawler_func.py", line 49, in scrape
+    driver = webdriver.Chrome(service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x55ad8e9348da <unknown>
+#1 0x55ad8e602e50 <unknown>
+#2 0x55ad8e63ae05 <unknown>
+#3 0x55ad8e636c78 <unknown>
+#4 0x55ad8e68364e <unknown>
+#5 0x55ad8e682e66 <unknown>
+#6 0x55ad8e677233 <unknown>
+#7 0x55ad8e645093 <unknown>
+#8 0x55ad8e64609e <unknown>
+#9 0x55ad8e8fbb3b <unknown>
+#10 0x55ad8e8ffaf1 <unknown>
+#11 0x55ad8e8e7705 <unknown>
+#12 0x55ad8e900662 <unknown>
+#13 0x55ad8e8cc8df <unknown>
+#14 0x55ad8e9236d8 <unknown>
+#15 0x55ad8e9238a2 <unknown>
+#16 0x55ad8e9336cc <unknown>
+#17 0x7f53dd578144 <unknown>
+
+[2024-09-02T16:35:56.842+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 1
+[2024-09-02T16:35:56.865+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-02T16:35:56.868+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

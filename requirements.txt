@@ -1,0 +1,4 @@
+selenium==4.24.0
+pandas==2.2.2
+psycopg2==2.9.9
+webdriver_manager==4.0.2

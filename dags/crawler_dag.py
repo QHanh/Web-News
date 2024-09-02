@@ -14,7 +14,7 @@ default_args = {
 }
 
 dag = DAG(
-    dag_id='ranking news',
+    dag_id='ranking_news',
     default_args=default_args,
     start_date= datetime(2024, 9, 1),
     schedule_interval='@once',

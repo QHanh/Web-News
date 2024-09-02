@@ -1,0 +1,1061 @@
+[2024-09-02T14:57:57.128+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:57:57.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T14:57:57.133+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:57:57.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:57:57.174+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:57:57.167+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T14:57:57.176+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:57:57.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.082 seconds
+[2024-09-02T14:58:27.744+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:27.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T14:58:27.748+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:58:27.747+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:27.776+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:58:27.767+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T14:58:27.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:27.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.063 seconds
+[2024-09-02T14:58:58.224+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:58.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T14:58:58.227+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:58:58.227+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:58.257+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:58:58.251+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T14:58:58.259+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:58:58.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.062 seconds
+[2024-09-02T14:59:28.855+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:28.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T14:59:28.859+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:59:28.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:28.888+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:59:28.879+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T14:59:28.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:28.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.064 seconds
+[2024-09-02T14:59:59.341+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:59.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T14:59:59.345+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:59:59.344+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:59.371+0000] {logging_mixin.py:190} INFO - [2024-09-02T14:59:59.364+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T14:59:59.374+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T14:59:59.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.066 seconds
+[2024-09-02T15:00:30.251+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:00:30.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:00:30.255+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:00:30.254+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:00:30.281+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:00:30.274+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:00:30.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:00:30.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.059 seconds
+[2024-09-02T15:01:01.070+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:01.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:01:01.077+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:01:01.077+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:01.101+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:01:01.096+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:01:01.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:01.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.058 seconds
+[2024-09-02T15:01:32.157+0000] {processor.py:186} INFO - Started process (PID=509) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:32.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:01:32.161+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:01:32.160+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:32.183+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:01:32.176+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:01:32.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:01:32.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.061 seconds
+[2024-09-02T15:02:03.003+0000] {processor.py:186} INFO - Started process (PID=573) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:03.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:02:03.007+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:02:03.006+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:03.030+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:02:03.024+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:02:03.032+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:03.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.056 seconds
+[2024-09-02T15:02:33.844+0000] {processor.py:186} INFO - Started process (PID=636) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:33.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:02:33.848+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:02:33.847+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:33.872+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:02:33.866+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:02:33.874+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:02:33.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.055 seconds
+[2024-09-02T15:03:04.104+0000] {processor.py:186} INFO - Started process (PID=699) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:03:04.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:03:04.108+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:03:04.108+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:03:04.138+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:03:04.131+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:03:04.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:03:04.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.063 seconds
+[2024-09-02T15:07:52.932+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:07:52.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:07:52.937+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:07:52.937+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:07:52.970+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:07:52.965+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:07:52.972+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:07:52.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.071 seconds
+[2024-09-02T15:08:23.046+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:23.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:08:23.050+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:08:23.050+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:23.077+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:08:23.071+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:08:23.079+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:23.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.065 seconds
+[2024-09-02T15:08:53.864+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:53.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:08:53.867+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:08:53.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:53.889+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:08:53.884+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:08:53.890+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:08:53.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.051 seconds
+[2024-09-02T15:09:24.206+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:24.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:09:24.209+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:09:24.208+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:24.226+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:09:24.222+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:09:24.228+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:24.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.046 seconds
+[2024-09-02T15:09:54.368+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:54.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:09:54.373+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:09:54.372+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:54.393+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:09:54.389+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:09:54.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:09:54.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.055 seconds
+[2024-09-02T15:10:25.454+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:25.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:10:25.457+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:10:25.457+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:25.481+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:10:25.476+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:10:25.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:25.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.062 seconds
+[2024-09-02T15:10:56.323+0000] {processor.py:186} INFO - Started process (PID=434) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:56.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:10:56.330+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:10:56.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:56.352+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:10:56.347+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:10:56.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:10:56.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.071 seconds
+[2024-09-02T15:11:27.227+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:27.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:11:27.230+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:11:27.230+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:27.252+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:11:27.247+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:11:27.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:27.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.057 seconds
+[2024-09-02T15:11:58.139+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:58.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:11:58.142+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:11:58.142+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:58.165+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:11:58.160+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:11:58.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:11:58.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.058 seconds
+[2024-09-02T15:25:18.964+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:18.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:25:18.969+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:25:18.969+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:18.994+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:25:18.986+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:25:18.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:19.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.064 seconds
+[2024-09-02T15:25:49.273+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:49.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:25:49.278+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:25:49.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:49.308+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:25:49.300+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:25:49.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:25:49.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.067 seconds
+[2024-09-02T15:26:59.755+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:26:59.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:26:59.761+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:26:59.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:26:59.799+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:26:59.784+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:26:59.801+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:26:59.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.086 seconds
+[2024-09-02T15:27:30.600+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:27:30.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:27:30.603+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:27:30.602+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:27:30.624+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:27:30.620+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:27:30.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:27:30.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.061 seconds
+[2024-09-02T15:28:01.637+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:01.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:28:01.640+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:28:01.640+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:01.660+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:28:01.655+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:28:01.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:01.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.052 seconds
+[2024-09-02T15:28:31.738+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:31.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:28:31.741+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:28:31.741+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:31.773+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:28:31.766+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:28:31.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:28:31.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.067 seconds
+[2024-09-02T15:29:01.850+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:01.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:29:01.853+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:29:01.853+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:01.878+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:29:01.873+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:29:01.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:01.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.070 seconds
+[2024-09-02T15:29:32.401+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:32.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:29:32.412+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:29:32.411+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:32.442+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:29:32.437+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+[2024-09-02T15:29:32.444+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:29:32.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.083 seconds
+[2024-09-02T15:47:05.449+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:05.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:47:05.454+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:47:05.454+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:05.559+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:47:05.553+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 16, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 591, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ranking news' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-09-02T15:47:05.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:05.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.147 seconds
+[2024-09-02T15:47:36.559+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:36.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:47:36.563+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:47:36.563+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:36.638+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:47:36.634+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 16, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 591, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ranking news' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-09-02T15:47:36.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:47:36.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.106 seconds
+[2024-09-02T15:48:07.198+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:07.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:48:07.202+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:07.201+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:07.276+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:07.272+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 16, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 591, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'ranking news' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-09-02T15:48:07.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:07.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.104 seconds
+[2024-09-02T15:48:31.363+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:31.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:48:31.367+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.367+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:31.455+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:48:31.556+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.556+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:ranking_news
+[2024-09-02T15:48:31.570+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.569+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:ranking_news
+[2024-09-02T15:48:31.587+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.586+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:ranking_news
+[2024-09-02T15:48:31.588+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.588+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:48:31.604+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.604+0000] {dag.py:3234} INFO - Creating ORM DAG for ranking_news
+[2024-09-02T15:48:31.614+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:48:31.614+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to 2024-09-01 00:00:00+00:00, run_after=2024-09-01 00:00:00+00:00
+[2024-09-02T15:48:31.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.276 seconds
+[2024-09-02T15:49:02.155+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:02.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:49:02.158+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:02.158+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:02.239+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:02.258+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:02.258+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:49:02.280+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:02.280+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to 2024-09-01 00:00:00+00:00, run_after=2024-09-01 00:00:00+00:00
+[2024-09-02T15:49:02.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.149 seconds
+[2024-09-02T15:49:32.987+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:32.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:49:32.991+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:32.990+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:33.085+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:49:33.107+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:33.106+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:49:33.137+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:49:33.137+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:49:33.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.220 seconds
+[2024-09-02T15:50:03.922+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:03.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:50:03.926+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:03.925+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:04.006+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:04.027+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:04.027+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:50:04.052+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:04.052+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:50:04.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.158 seconds
+[2024-09-02T15:50:34.328+0000] {processor.py:186} INFO - Started process (PID=506) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:34.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:50:34.332+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:34.332+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:34.410+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:50:34.429+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:34.429+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:50:34.452+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:50:34.451+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:50:34.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.156 seconds
+[2024-09-02T15:51:05.200+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:05.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:51:05.205+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:05.204+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:05.292+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:05.322+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:05.321+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:51:05.381+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:05.380+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:51:05.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.221 seconds
+[2024-09-02T15:51:36.137+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:36.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:51:36.142+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:36.141+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:36.227+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:51:36.254+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:36.254+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:51:36.278+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:51:36.278+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:51:36.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.186 seconds
+[2024-09-02T15:52:06.821+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:52:06.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:52:06.825+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:52:06.824+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:52:06.895+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:52:06.914+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:52:06.914+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:52:06.934+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:52:06.934+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:52:06.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.138 seconds
+[2024-09-02T15:57:36.923+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:57:36.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:57:36.933+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:57:36.932+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:57:37.075+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:57:37.136+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:57:37.136+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:57:37.179+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:57:37.178+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:57:37.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.298 seconds
+[2024-09-02T15:58:08.063+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:08.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:58:08.067+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:08.066+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:08.166+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:08.192+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:08.192+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:58:08.223+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:08.222+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:58:08.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.191 seconds
+[2024-09-02T15:58:38.348+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:38.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:58:38.351+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:38.351+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:38.418+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:58:38.437+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:38.436+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:58:38.458+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:58:38.458+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:58:38.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.136 seconds
+[2024-09-02T15:59:09.215+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:09.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:59:09.219+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:09.219+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:09.308+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:09.328+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:09.328+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:59:09.354+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:09.354+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:59:09.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.169 seconds
+[2024-09-02T15:59:39.574+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:39.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T15:59:39.578+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:39.578+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:39.663+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T15:59:39.683+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:39.683+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T15:59:39.707+0000] {logging_mixin.py:190} INFO - [2024-09-02T15:59:39.707+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T15:59:39.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.161 seconds
+[2024-09-02T16:00:09.868+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:00:09.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:00:09.871+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:00:09.871+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:00:09.945+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:00:09.963+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:00:09.963+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:00:09.987+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:00:09.986+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:00:10.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.143 seconds
+[2024-09-02T16:17:39.779+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:17:39.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:17:39.784+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:17:39.784+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:17:39.947+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:17:39.937+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 4, in <module>
+    from webdriver_manager.chrome import ChromeDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+[2024-09-02T16:17:39.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:17:39.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.216 seconds
+[2024-09-02T16:18:10.282+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:10.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:18:10.285+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:18:10.285+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:10.361+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:18:10.352+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 4, in <module>
+    from webdriver_manager.chrome import ChromeDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+[2024-09-02T16:18:10.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:10.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.109 seconds
+[2024-09-02T16:18:40.664+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:40.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:18:40.667+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:18:40.667+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:40.749+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:18:40.742+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 4, in <module>
+    from webdriver_manager.chrome import ChromeDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+[2024-09-02T16:18:40.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:18:40.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.114 seconds
+[2024-09-02T16:19:10.838+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:19:10.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:19:10.841+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:19:10.841+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:19:10.945+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:19:10.937+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 4, in <module>
+    from webdriver_manager.chrome import ChromeDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+[2024-09-02T16:19:10.947+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:19:10.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.147 seconds
+[2024-09-02T16:22:49.025+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:22:49.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:22:49.031+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:22:49.030+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:22:49.166+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:22:49.159+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:22:49.169+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:22:49.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.178 seconds
+[2024-09-02T16:23:19.839+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:19.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:23:19.842+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:23:19.842+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:19.933+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:23:19.927+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:23:19.935+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:19.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.125 seconds
+[2024-09-02T16:23:50.098+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:50.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:23:50.103+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:23:50.102+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:50.205+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:23:50.198+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:23:50.208+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:23:50.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.141 seconds
+[2024-09-02T16:24:20.314+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:20.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:24:20.320+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:24:20.319+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:20.433+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:24:20.428+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:24:20.436+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:20.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.156 seconds
+[2024-09-02T16:24:50.787+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:50.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:24:50.792+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:24:50.791+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:50.904+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:24:50.896+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:24:50.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:24:50.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.158 seconds
+[2024-09-02T16:25:21.324+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:21.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:25:21.329+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:25:21.328+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:21.428+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:25:21.419+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:25:21.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:21.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.142 seconds
+[2024-09-02T16:25:51.632+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:51.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:25:51.635+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:25:51.635+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:51.726+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:25:51.718+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:25:51.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:25:51.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.126 seconds
+[2024-09-02T16:26:22.269+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:22.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:26:22.273+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:26:22.272+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:22.363+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:26:22.356+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 5, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:26:22.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:22.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.126 seconds
+[2024-09-02T16:26:52.465+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:52.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:26:52.470+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:26:52.470+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:52.562+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:26:52.557+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 6, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:26:52.564+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:26:52.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.126 seconds
+[2024-09-02T16:27:22.657+0000] {processor.py:186} INFO - Started process (PID=628) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:22.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:27:22.661+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:27:22.661+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:22.751+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:27:22.745+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 6, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:27:22.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:22.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.124 seconds
+[2024-09-02T16:27:53.071+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:53.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:27:53.076+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:27:53.076+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:53.160+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:27:53.152+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 6, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:27:53.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:27:53.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.116 seconds
+[2024-09-02T16:28:23.349+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:23.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:28:23.353+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:28:23.353+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:23.438+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:28:23.431+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 6, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:28:23.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:23.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.118 seconds
+[2024-09-02T16:28:54.198+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:54.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:28:54.203+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:28:54.202+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:54.308+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:28:54.301+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/crawler_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crawler_dag.py", line 7, in <module>
+    from crawler_func import scrape
+  File "/opt/airflow/dags/crawler_func.py", line 6, in <module>
+    from webdriver_manager.core.utils import ChromeType
+ImportError: cannot import name 'ChromeType' from 'webdriver_manager.core.utils' (/home/airflow/.local/lib/python3.12/site-packages/webdriver_manager/core/utils.py)
+[2024-09-02T16:28:54.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:28:54.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.146 seconds
+[2024-09-02T16:30:57.576+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:30:57.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:30:57.580+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:30:57.580+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:30:57.694+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:30:57.821+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:30:57.821+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:30:57.865+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:30:57.864+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:30:57.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.335 seconds
+[2024-09-02T16:31:28.472+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:28.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:31:28.476+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:28.475+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:28.560+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:28.580+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:28.579+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:31:28.600+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:28.599+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:31:28.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.160 seconds
+[2024-09-02T16:31:59.714+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:59.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:31:59.718+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:59.717+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:59.802+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:31:59.822+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:59.822+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:31:59.847+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:31:59.847+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:31:59.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.159 seconds
+[2024-09-02T16:32:30.634+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:32:30.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:32:30.637+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:32:30.637+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:32:30.721+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:32:30.741+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:32:30.741+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:32:30.765+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:32:30.765+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:32:30.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.158 seconds
+[2024-09-02T16:33:00.910+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:00.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:33:00.914+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:00.914+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:01.025+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:01.047+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:01.047+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:33:01.073+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:01.073+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:33:01.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.192 seconds
+[2024-09-02T16:33:31.270+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:31.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:33:31.275+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:31.274+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:31.364+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:33:31.382+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:31.382+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:33:31.403+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:33:31.403+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:33:31.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.160 seconds
+[2024-09-02T16:34:01.934+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:01.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:34:01.938+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:01.938+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:02.033+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:02.053+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:02.053+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:34:02.076+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:02.076+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:34:02.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.178 seconds
+[2024-09-02T16:34:32.974+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:32.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:34:32.977+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:32.977+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:33.066+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:34:33.086+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:33.086+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:34:33.108+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:34:33.108+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:34:33.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.183 seconds
+[2024-09-02T16:35:04.205+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:04.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:35:04.208+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:04.208+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:04.299+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:04.318+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:04.318+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:35:04.347+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:04.347+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:35:04.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.168 seconds
+[2024-09-02T16:35:35.342+0000] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:35.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:35:35.346+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:35.346+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:35.442+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:35:35.465+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:35.464+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:35:35.490+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:35:35.490+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:35:35.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.189 seconds
+[2024-09-02T16:36:05.625+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:05.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:36:05.630+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:05.630+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:05.731+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:05.752+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:05.751+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:36:05.774+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:05.773+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:36:05.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.175 seconds
+[2024-09-02T16:36:35.996+0000] {processor.py:186} INFO - Started process (PID=746) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:35.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:36:36.000+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:35.999+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:36.094+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:36:36.115+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:36.115+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:36:36.140+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:36:36.140+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:36:36.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.170 seconds
+[2024-09-02T16:38:58.400+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:38:58.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:38:58.405+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:38:58.405+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:38:58.524+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:38:58.551+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:38:58.551+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:38:58.592+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:38:58.592+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:38:58.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.223 seconds
+[2024-09-02T16:39:28.665+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:28.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:39:28.668+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:28.668+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:28.751+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:28.770+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:28.770+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:39:28.790+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:28.790+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:39:28.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.164 seconds
+[2024-09-02T16:39:58.878+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:58.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:39:58.882+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:58.882+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:58.973+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:39:58.995+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:58.995+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:39:59.017+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:39:59.017+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:39:59.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.165 seconds
+[2024-09-02T16:40:29.375+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:29.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:40:29.379+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:40:29.379+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:29.469+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:29.490+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:40:29.490+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:40:29.513+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:40:29.512+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:40:29.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.165 seconds
+[2024-09-02T16:40:59.859+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:59.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:40:59.864+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:40:59.863+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:59.962+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:40:59.985+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:40:59.985+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:41:00.018+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:41:00.018+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:41:00.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.188 seconds
+[2024-09-02T16:41:30.108+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:41:30.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:41:30.112+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:41:30.112+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:41:30.201+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:41:30.222+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:41:30.222+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:41:30.246+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:41:30.246+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:41:30.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.166 seconds
+[2024-09-02T16:42:00.329+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:00.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:42:00.334+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:00.333+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:00.439+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:00.460+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:00.460+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:42:00.485+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:00.485+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:42:00.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.188 seconds
+[2024-09-02T16:42:30.890+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:30.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:42:30.894+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:30.894+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:30.999+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:42:31.019+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:31.019+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:42:31.044+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:42:31.044+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:42:31.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.180 seconds
+[2024-09-02T16:43:01.460+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:01.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:43:01.464+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:01.464+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:01.554+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:01.573+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:01.573+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:43:01.594+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:01.594+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:43:01.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.161 seconds
+[2024-09-02T16:43:31.794+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:31.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:43:31.797+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:31.797+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:31.884+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:43:31.903+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:31.903+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:43:31.924+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:43:31.924+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:43:31.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.156 seconds
+[2024-09-02T16:44:02.253+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:02.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:44:02.256+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:02.256+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:02.350+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:02.369+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:02.369+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:44:02.390+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:02.390+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:44:02.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.163 seconds
+[2024-09-02T16:44:32.518+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:32.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:44:32.521+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:32.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:32.651+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:44:32.678+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:32.678+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:44:32.707+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:44:32.707+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:44:32.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.217 seconds
+[2024-09-02T16:45:02.866+0000] {processor.py:186} INFO - Started process (PID=814) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:02.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:45:02.869+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:02.869+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:02.977+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:03.002+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:03.002+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:45:03.031+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:03.031+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:45:03.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.197 seconds
+[2024-09-02T16:45:33.248+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:33.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crawler_dag.py for tasks to queue
+[2024-09-02T16:45:33.253+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:33.252+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:33.347+0000] {processor.py:925} INFO - DAG(s) 'ranking_news' retrieved from /opt/airflow/dags/crawler_dag.py
+[2024-09-02T16:45:33.368+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:33.368+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-02T16:45:33.393+0000] {logging_mixin.py:190} INFO - [2024-09-02T16:45:33.392+0000] {dag.py:4138} INFO - Setting next_dagrun for ranking_news to None, run_after=None
+[2024-09-02T16:45:33.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crawler_dag.py took 0.174 seconds
